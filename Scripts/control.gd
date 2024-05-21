@@ -34,7 +34,6 @@ func _process(_delta):
 func _on_button_1_pressed():
 	$MenuMusic.stop()
 	$Container.visible = false
-	$Container/ColorRect.visible = false
 	if Global.world_convo_played == true:
 		get_tree().paused = false
 	$Camera2D.enabled = false

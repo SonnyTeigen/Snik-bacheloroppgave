@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bysio2dcg77lb"
+path="res://.godot/imported/Abandoned City.mp3-fdbcedae997c43da9c91e0add80c927f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Music/Abandoned City.mp3"
+dest_files=["res://.godot/imported/Abandoned City.mp3-fdbcedae997c43da9c91e0add80c927f.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

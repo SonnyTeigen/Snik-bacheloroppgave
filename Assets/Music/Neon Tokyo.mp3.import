@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ceis1txqmsxk2"
+path="res://.godot/imported/Neon Tokyo.mp3-76af91e11d1f3c4a2b29727436e8bf5a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Music/Neon Tokyo.mp3"
+dest_files=["res://.godot/imported/Neon Tokyo.mp3-76af91e11d1f3c4a2b29727436e8bf5a.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

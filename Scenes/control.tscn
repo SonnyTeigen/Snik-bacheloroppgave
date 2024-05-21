@@ -390,7 +390,7 @@ icon = ExtResource("8_5aoil")
 flat = true
 icon_alignment = 1
 
-[node name="MenuMusic" type="AudioStreamPlayer2D" parent="."]
+[node name="MenuMusic" type="AudioStreamPlayer2D" parent="." groups=["sound"]]
 stream = ExtResource("9_lmiue")
 
 [connection signal="pressed" from="Container/VBoxContainer/NewGame" to="." method="_on_button_1_pressed"]

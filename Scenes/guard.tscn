@@ -252,17 +252,17 @@ position = Vector2(-139.066, -193.115)
 scale = Vector2(13.5884, 50.4443)
 polygon = PackedVector2Array(10.3262, 3.82584, 22.7449, 4.81948, 22.7449, 2.83709)
 
-[node name="FootstepSound" type="AudioStreamPlayer2D" parent="."]
+[node name="FootstepSound" type="AudioStreamPlayer2D" parent="." groups=["sound"]]
 stream = ExtResource("5_omsj3")
 volume_db = -4.952
 pitch_scale = 2.12
 max_distance = 1000.0
 panning_strength = 2.0
 
-[node name="SuspiciousSound" type="AudioStreamPlayer2D" parent="."]
+[node name="SuspiciousSound" type="AudioStreamPlayer2D" parent="." groups=["sound"]]
 stream = ExtResource("6_qj56x")
 
-[node name="ChaseSound" type="AudioStreamPlayer2D" parent="."]
+[node name="ChaseSound" type="AudioStreamPlayer2D" parent="." groups=["sound"]]
 stream = ExtResource("7_6y76i")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]

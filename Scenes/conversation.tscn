@@ -206,7 +206,7 @@ self_modulate = Color(1, 1, 1, 0)
 offset_right = 860.0
 offset_bottom = 490.0
 
-[node name="ConvoMusic" type="AudioStreamPlayer2D" parent="."]
+[node name="ConvoMusic" type="AudioStreamPlayer2D" parent="." groups=["sound"]]
 stream = ExtResource("4_75xyt")
 
 [connection signal="pressed" from="Node/Button" to="." method="_on_Button_pressed"]
